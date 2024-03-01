@@ -32,7 +32,7 @@ export const Config: TConfig = {
 
   // Giscus Configure. Please refer to the https://giscus.app for entire instruction
   Giscus: {
-    enabled: true,
+    enabled: false,
     repo: ``,
     repoId: "",
     category: "",

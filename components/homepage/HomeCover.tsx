@@ -1,6 +1,6 @@
 import { SocialIcons } from "@/components/utils/SocialIcons";
 import { Config } from "@/data/config";
-import { fontFangZhengXiaoBiaoSongCN, fontSourceSerifScreenCN } from "@/styles/font";
+// import { fontFangZhengXiaoBiaoSongCN, fontSourceSerifScreenCN } from "@/styles/font";
 
 export const HomeCover = () => {
   return (
@@ -19,13 +19,13 @@ export const HomeCover = () => {
           src={Config.AvatarURL}
         />
       </div>
-      <div className={`${fontFangZhengXiaoBiaoSongCN.className} my-8 text-center text-4xl font-bold`}>
+      <div className={`my-8 text-center text-4xl font-bold`}>
         {Config.Nickname}
       </div>
       <SocialIcons />
       {Config.Sentence && (
         <div className="my-8 flex justify-center">
-          <p className={`${fontSourceSerifScreenCN.className} text-lg`}>{Config.Sentence}</p>
+          <p className={`text-lg`}>{Config.Sentence}</p>
         </div>
       )}
     </>

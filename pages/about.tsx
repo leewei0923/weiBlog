@@ -4,7 +4,7 @@ import { NavBar } from "@/components/utils/NavBar";
 import { SEO } from "@/components/utils/SEO";
 import { SocialIcons } from "@/components/utils/SocialIcons";
 import { Config } from "@/data/config";
-import { fontFangZhengXiaoBiaoSongCN, fontSourceSerifScreenCN } from "@/styles/font";
+// import { fontFangZhengXiaoBiaoSongCN, fontSourceSerifScreenCN } from "@/styles/font";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -17,11 +17,11 @@ export default function AboutPage() {
       />
       <NavBar />
       <ContentContainer>
-        <h2 className={`my-5 flex justify-around text-2xl font-bold ${fontFangZhengXiaoBiaoSongCN.className}`}>
+        <h2 className={`my-5 flex justify-around text-2xl font-bold`}>
           {"ABOUT ME"}
         </h2>
         <hr />
-        <div className={`${fontSourceSerifScreenCN.className} my-5 justify-center md:flex md:space-x-10`}>
+        <div className={`my-5 justify-center md:flex md:space-x-10`}>
           {/* <div className="my-auto flex md:w-1/3">
             <img alt="my-profile" className="mx-auto my-auto max-h-[23rem] rounded-lg" src="/images/profile.webp" />
           </div> */}
