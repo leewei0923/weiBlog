@@ -8,8 +8,8 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class" enableColorScheme enableSystem={false}>
-      <Analytics />
-      <SpeedInsights />
+      {/* <Analytics /> */}
+      {/* <SpeedInsights /> */}
       <Component {...pageProps} />
     </ThemeProvider>
   );

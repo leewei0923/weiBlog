@@ -3,13 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "edward zhang",
-    "email": "terminals@outlook.com",
-    "url": "https://blog.terminals.run"
-  },
-  "bugs": {
-    "email": "terminals@outlook.com",
-    "url": "https://github.com/PrinOrange/nextjs-lexical-blog/issues"
+    "name": "leewei",
+    "email": "leewei2547@gmail.com",
+    "url": "https://blog.7miaoyu.com"
   },
   "scripts": {
     "dev": "next dev",

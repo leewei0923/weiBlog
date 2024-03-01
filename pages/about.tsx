@@ -22,19 +22,16 @@ export default function AboutPage() {
         </h2>
         <hr />
         <div className={`${fontSourceSerifScreenCN.className} my-5 justify-center md:flex md:space-x-10`}>
-          <div className="my-auto flex md:w-1/3">
+          {/* <div className="my-auto flex md:w-1/3">
             <img alt="my-profile" className="mx-auto my-auto max-h-[23rem] rounded-lg" src="/images/profile.webp" />
-          </div>
+          </div> */}
           <div className="my-auto md:w-1/3">
             <div className="mt-5 mb-3 text-3xl font-bold">Hi, there👋</div>
-            I am a student / entrepreneur / engineer (Your profession) majoring in (Your Research Field) born in XXXX
-            (Your birth year)
+            I am a entrepreneur  majoring in front-end born in 2000
             <br />
             <br />
-            My main research interests includes XXXX
+            如果你也喜欢它，我们一起加油吧！
             <br />
-            <br />
-            Additionally, I am also interested in XXXX.
           </div>
         </div>
         <hr />
@@ -60,15 +57,15 @@ export default function AboutPage() {
               </Link>
             </li>
           )}
-          <li className="my-2">Language : 汉语 / English / 한국어 / 日本語 </li>
-          <li className="my-2">Gender Identity : Male / Female / MTF / FTM / And Others </li>
-          <li className="my-2">From : Your Country, State / Province</li>
+          <li className="my-2">Language : 汉语 / English / 日本語 </li>
+          <li className="my-2">Gender Identity : Male </li>
+          <li className="my-2">From : China, AnHui</li>
         </ul>
 
         <div className="mx-auto my-10 md:w-2/3 font-bold">
-          {
+          {/* {
             "** In addition to the above content, you can also add other customized components, content, etc. to this page. **"
-          }
+          } */}
         </div>
       </ContentContainer>
       <Footer />

@@ -19,11 +19,11 @@ export const Footer = () => {
       }}
     >
       <footer className="my-5 flex flex-col justify-center py-2 text-sm">
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Link target="_blank" href="https://vercel.com/?utm_source=github-contributions-chart&utm_campaign=oss">
             <img src="/powered-by-vercel.svg" alt="Powered by vercel" className="h-8" />
           </Link>
-        </div>
+        </div> */}
         <div className="my-2 flex flex-wrap justify-center space-x-3 text-center text-gray-500 underline dark:text-gray-400">
           <Link href="/sponsor" title="Sponsor me for my works.">
             {"Sponsor"}
